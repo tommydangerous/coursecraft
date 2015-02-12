@@ -38,6 +38,8 @@ gem 'unicorn'
 gem "dotenv-deployment"
 gem "dotenv-rails"
 
+gem "asset_sync"
+
 group :development do
   gem "capistrano"
   gem "capistrano-rails"
