@@ -85,4 +85,8 @@ namespace :deploy do
       run "ln -sf #{shared_path}/#{path} #{release_path}/#{path}"
     end
   end
+
+  task :restart do
+    run "sudo /etc/init.d/unicorn upgrade"
+  end
 end
