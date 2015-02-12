@@ -1,4 +1,5 @@
 # results in a 'bundle install' during deploy
+require "rvm/capistrano"
 require "bundler/capistrano"
 
 set :application, "coursecraft"
