@@ -35,6 +35,9 @@ gem 'unicorn'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem "dotenv-deployment"
+gem "dotenv-rails"
+
 group :development do
   gem "capistrano"
   gem "capistrano-rails"

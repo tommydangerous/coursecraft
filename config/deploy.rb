@@ -1,6 +1,7 @@
 # results in a 'bundle install' during deploy
 require "rvm/capistrano"
 require "bundler/capistrano"
+require "dotenv/deployment/capistrano"
 
 set :application, "coursecraft"
 set :repository,  "git@github.com:tommydangerous/coursecraft.git"

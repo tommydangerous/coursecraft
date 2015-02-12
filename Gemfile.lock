@@ -44,6 +44,11 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.9.0)
+    dotenv (1.0.2)
+    dotenv-deployment (0.2.0)
+      dotenv (~> 1.0)
+    dotenv-rails (1.0.2)
+      dotenv (= 1.0.2)
     erubis (2.7.0)
     execjs (2.3.0)
     highline (1.6.21)
@@ -135,6 +140,8 @@ DEPENDENCIES
   capistrano
   capistrano-rails
   coffee-rails (~> 4.0.0)
+  dotenv-deployment
+  dotenv-rails
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.8)
